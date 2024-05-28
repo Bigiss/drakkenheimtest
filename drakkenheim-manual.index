@@ -2,6 +2,7 @@
 <index>
 	<info>
 		<name>Drakkenheim-Manual</name>
+		<description>Attempting to add my drakkenheim background to Aurora.</description>
 		<update version="0.0.1">
 			<file name="drakkenheim-manual.index" url="https://raw.githubusercontent.com/Bigiss/drakkenheimtest/main/drakkenheim-manual.index" />
 		</update>
