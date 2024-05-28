@@ -8,7 +8,6 @@
 		</update>
 	</info>
 	<files>
-		<file name="drakkenheim-manual.index" url="https://raw.githubusercontent.com/Bigiss/drakkenheimtest/main/drakkenheim-manual.index" />
 		<file name="background-dd.Survivor" url="https://raw.githubusercontent.com/Bigiss/drakkenheimtest/main/background-DD.Survivor.xml" />
 	</files>
 </index>
