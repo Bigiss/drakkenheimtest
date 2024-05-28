@@ -5,7 +5,7 @@
 		<description>Survivor Background</description>
 		<author url="no">Drakkenheim</author>
 		<update version="0.0.5">
-			<file name="background-Survivor.xml" url="C:\Users\Robin\Documents\5e Character Builder\custom\third-party\Drakkenheim-Manual" />
+			<file name="background-Survivor.xml" url="https://raw.githubusercontent.com/Bigiss/drakkenheimtest/main/background-DD.Survivor.xml" />
 		</update>
 	</info>
 
