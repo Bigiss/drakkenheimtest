@@ -3,7 +3,7 @@
 	<info>
 		<name>Drakkenheim-Manual</name>
 		<update version="0.0.1">
-			<file name="drakkenheim-manual.index" url="https://pastebin.com/raw/exMziEkg" />
+			<file name="drakkenheim-manual.index" url="https://raw.githubusercontent.com/Bigiss/drakkenheimtest/main/drakkenheim-manual.index" />
 		</update>
 	</info>
 	<files>
