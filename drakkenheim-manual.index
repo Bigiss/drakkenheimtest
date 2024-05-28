@@ -8,7 +8,7 @@
 		</update>
 	</info>
 	<files>
-		<file name="source" url="https://raw.githubusercontent.com/Bigiss/drakkenheimtest/main/source.xml" />
-		<file name="background-dd.Survivor" url="https://raw.githubusercontent.com/Bigiss/drakkenheimtest/main/background-DD.Survivor.xml" />
+		<file name="source.xml" url="https://raw.githubusercontent.com/Bigiss/drakkenheimtest/main/source.xml" />
+		<file name="background-dd.Survivor.xml" url="https://raw.githubusercontent.com/Bigiss/drakkenheimtest/main/background-DD.Survivor.xml" />
 	</files>
 </index>
