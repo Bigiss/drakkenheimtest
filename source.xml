@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.1">
+			<file name="source.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/third-party/dms-guild/the-great-dale/source.xml" />
+		</update>
+	</info>
+	
+	<element name="Drakkenheim-Manual" type="Source" source="Core" id="ID_DMSG_TGD_SOURCE_THE_GREAT_DALE">
+		<description>
+			<p>Im trying!</p>
+		</description>
+		<setters>
+			<set name="abbreviation">DDD</set>
+			<set name="url"></set>
+			<set name="image"</set>
+			<set name="author" abbreviation="DDD" url="">testing</set>
+			<set name="third-party">true</set>
+			<set name="release">2024</set>
+		</setters>
+	</element>
+	
+</elements>
