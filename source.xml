@@ -6,18 +6,4 @@
 		</update>
 	</info>
 	
-	<element name="Drakkenheim-Manual" type="Source" source="Core" id="ID_DDD_DRAKKENHEIM-MANUAL">
-		<description>
-			<p>Im trying!</p>
-		</description>
-		<setters>
-			<set name="abbreviation">DDD</set>
-			<set name="url"></set>
-			<set name="image"</set>
-			<set name="author" abbreviation="DDD" url="">testing</set>
-			<set name="third-party">true</set>
-			<set name="release">2024</set>
-		</setters>
-	</element>
-	
 </elements>
