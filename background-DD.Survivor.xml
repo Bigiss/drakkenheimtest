@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Survivor</name>
+		<description>Survivor Background</description>
+		<author url="no">Drakkenheim</author>
+		<update version="0.0.5">
+			<file name="background-Survivor.xml" url="C:\Users\Robin\Documents\5e Character Builder\custom\third-party\Drakkenheim-Manual" />
+		</update>
+	</info>
+
+	<element name="Survivor" type="Background" source="Drakkenheim" id="ID_BACKGROUND_SURVIVOR">
+		<description>
+			<p>Not everyone left Drakkenheim after the meteor. Some stayed behind, searching the ruins for things they lost: friends and family, or just seeking out treasure and artefacts. You know what places in the city are the most dangerous, what paths are the best to take, and often have an idea of the fastest ways to travel. Despite the Haze and other dangers, you’ve managed to survive, but carry the weight of Drakkenheim’s madness with you.</p>
+			<p class="indent">Choose 2 Proficiencies from (Perception, Survival, Stealth). Choose 1 Tool Proficiency</p>
+			<ul class="unstyled">
+				<li><strong>Skill Proficiencies:</strong>Perception, Survival</li>
+			</ul>
+			<div element="ID_BACKGROUND_FEATURE_MAKESHIFT_MEALS" />
+			<h5>SUGGESTED CHARACTERISTICS</h5>
+			<p>they be survivin</p>
+		</description>
+		<setters>
+			<set name="short">Perception, Survival</set>
+		</setters>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
+			<select type="Language" name="Language (Acolyte)" number="0" supports="Standard||Exotic" />
+			<grant type="Background Feature" id="ID_BACKGROUND_FEATURE_MAKESHIFT_MEALS" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE"/>
+			<select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
+			<select type="List" name="Personality Trait" number="2">
+				<item id="1">I always have an exit strategy in mind if things go poorly.</item>
+				<item id="2">You can’t survive in this grim city without a good sense of humor, and I have a taste for gallows humor.</item>
+				<item id="3">I try to work in the thin grey area between the squabbling factions, squeezing under their radar when possible. The less I am seen, the better.</item>
+				<item id="4">If you spot danger, it is best to avoid it, that’s how you survive.</item>
+				<item id="5">Drakkenheim is a dangerous place, but I can navigate it with my eyes closed. No one else I’ve ever met is as good as I am.</item>
+				<item id="6">In order to survive the monsters of Drakkenheim, one must be a monster of Drakkenheim.</item>
+				<item id="7">Take everything you can from the dead, take it from the living if you can. If you are to survive, you must take any opportunity to scavenge.</item>
+				<item id="8">I will never give up until I reclaim what I lost in these ruins.</item>
+			</select>
+			<select type="List" name="Ideal">
+				<item id="1">Self-Reliance. I won’t risk my life for others. Everyone must fend for themselves -- better you than me. (Evil)</item>
+				<item id="2">Bravery. I find the thrill of surviving the monsters and magics of Drakkenheim exhilarating and thrive on the chaos. (Chaotic)	</item>
+				<item id="3">Safety. Whatever I can do to keep myself fed and keep a safe place to rest is good in my books. (Any)</item>
+				<item id="4">Helpful. People need all the help they can get in the city, and I know I can provide it. (Good)</item>
+				<item id="5">Hope. I believe there is something worth saving here, we must hold on to the idea of a better future. (Good)</item>
+				<item id="6">Responsibility. I lived here before the meteor, I’ll live here long after. I must protect my home and do what I can to make it livable again. (Lawful)</item>
+			</select>
+			<select type="List" name="Bond">
+				<item id="1">I had family in these ruins. I know not what became of them, but I must find out.</item>
+				<item id="2">This city is my home, and I will fight for what’s left of it until the very end.</item>
+				<item id="3">I’ll do any dirty work in the city if it means a hot meal, a warm bed, or some good company.</item>
+				<item id="4">I’ve spent so long in these ruins, its the outside world that terrifies me now.</item>
+				<item id="5">Why haven’t I left Drakkenheim? Have you seen how much gold there is to be made here?</item>
+				<item id="6">I am bound to the throne of Drakkenheim, and fight to see it one day reclaimed.</item>
+			</select>
+			<select type="List" name="Flaw">
+				<item id="1">Any meal could be my last. I’ll eat just about anything. I do what I must to survive.</item>
+				<item id="2">I don’t like being outside the Haze of the city for too long. I’ve gotten used to it.</item>
+				<item id="3">I am convinced my family is alive in the city somewhere. I hear their voices call to me at night.</item>
+				<item id="4">I don’t trust anyone easily. I’ll sleep with one eye open even around my companions, for Drakkenheim makes monsters of us all.</item>
+				<item id="5">The years spent here have turned me to a vice, I very much rely on that vice to get me through my days.</item>
+				<item id="6">I hear voices constantly. Sometimes I get distracted with conversations with people who are not there.</item>
+			</select>
+		</rules>
+	</element>
+	
+	<element name="Feature: Makeshift Meals" type="Background Feature" source="Drakkenheim" id="ID_BACKGROUND_FEATURE_MAKESHIFT_MEALS">
+		<supports>Background Feature</supports>
+		<description>
+			<p>You know how to purify food and rations found in the ruins. When you take a short rest, you prepare a meal for a number of creatures equal to your proficiency bonus. Creatures who consume the food regain hit points equal to your level. Once they do, they can’t regain hit points from another one of your meals until they finish a long rest.</p>
+		</description>
+		<sheet alt="Makshift Meals" />
+	</element>
+</elements>
