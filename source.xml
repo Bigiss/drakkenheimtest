@@ -6,7 +6,7 @@
 		</update>
 	</info>
 	
-	<element name="Drakkenheim-Manual" type="Source" source="Core" id="ID_DMSG_TGD_SOURCE_THE_GREAT_DALE">
+	<element name="Drakkenheim-Manual" type="Source" source="Core" id="ID_DDD_DRAKKENHEIM-MANUAL">
 		<description>
 			<p>Im trying!</p>
 		</description>
